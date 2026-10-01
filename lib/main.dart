@@ -5,12 +5,12 @@ void main() {
     const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Center(
-        child: Text(
-          'Привет! Меня зовут [Твое Имя].\nЯ студент группы [Номер группы].',
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 50,
+        child: Image(
+          image: NetworkImage(
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmWMSOSu5iL4a39bRlMZHVQVjpW08FmK1qrsRU8bZ4WlH7QsdKJJvjstvg&s=10',
           ),
+          width: 500,
+          height: 500,
         ),
       ),
     ),
